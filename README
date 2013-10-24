@@ -1,0 +1,12 @@
+fir - just playing around with fir filters
+Written in 2013 by <Ahmet Inan> <xdsopl@googlemail.com>
+To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty.
+You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+
+made this to play around with lowpass, highpass and bandpass fir filters and various window functions.
+
+you have to edit the code and recompile.
+
+use gnuplot to visualize:
+gnuplot> plot "< ./fir rect" w l, "< ./fir hann" w l, "< ./fir hamming" w l, "< ./fir blackman" w l, "< ./fir kaiser 2" w l, "< ./fir lanczos" w l
+
